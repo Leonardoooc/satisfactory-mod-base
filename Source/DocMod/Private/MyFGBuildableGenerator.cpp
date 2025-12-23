@@ -6,7 +6,7 @@ AMyFGBuildableGenerator::AMyFGBuildableGenerator()
 	// Enable Tick
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = true;
-	
+
 	// Set the base power production - this will be overridden dynamically
 	mPowerProduction = 50.0f;
 }
